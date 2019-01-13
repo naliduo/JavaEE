@@ -3,11 +3,11 @@ package main.designmodel.simplefactory;
 /**
  * Created by lilk on 2018/12/31.
  */
-public abstract class operator {
+public abstract class Operator {
     public int a;
     public int b;
 
-    public operator() {
+    public Operator() {
     }
 
     public int getResult() {

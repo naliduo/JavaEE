@@ -3,28 +3,28 @@ package main.designmodel.simplefactory;
 /**
  * Created by lilk on 2018/12/31.
  */
-public class operatorFactory {
+public class OperatorFactory {
 
-    public static operator getOperator(String operatorType) {
-        operator operator;
+    public static Operator getOperator(String operatorType) {
+        Operator Operator;
         switch (operatorType) {
             case "+":
-                operator = new plus();
+                Operator = new Plus();
                 break;
             case "-":
-                operator = new mouse();
+                Operator = new Mouse();
                 break;
             case "*":
-                operator = new multiply();
+                Operator = new Multiply();
                 break;
             case "/":
-                operator = new divide();
+                Operator = new Divide();
                 break;
             default:
-                operator = null;
+                Operator = null;
                 break;
         }
-        return operator;
+        return Operator;
 
     }
 }

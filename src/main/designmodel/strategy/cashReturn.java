@@ -3,12 +3,12 @@ package main.designmodel.strategy;
 /**
  * Created by lilk on 2019/1/6.
  */
-public class cashReturn implements ICashSuper {
+public class CashReturn implements ICashSuper {
 
     private double limit;
     private double back;
 
-    public cashReturn(double limit, double back) {
+    public CashReturn(double limit, double back) {
         this.limit = limit;
         this.back = back;
     }

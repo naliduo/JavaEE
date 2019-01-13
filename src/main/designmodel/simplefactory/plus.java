@@ -3,7 +3,7 @@ package main.designmodel.simplefactory;
 /**
  * Created by lilk on 2018/12/31.
  */
-public class plus extends operator {
+public class Plus extends Operator {
 
     @Override
     public int getResult() {

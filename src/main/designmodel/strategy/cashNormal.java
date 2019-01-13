@@ -3,9 +3,9 @@ package main.designmodel.strategy;
 /**
  * Created by lilk on 2019/1/6.
  */
-public class cashNormal implements ICashSuper{
+public class CashNormal implements ICashSuper{
 
-    public cashNormal(){
+    public CashNormal(){
 
     }
 

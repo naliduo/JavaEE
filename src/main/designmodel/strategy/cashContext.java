@@ -3,19 +3,19 @@ package main.designmodel.strategy;
 /**
  * Created by lilk on 2019/1/6.
  */
-public class cashContext {
+public class CashContext {
     ICashSuper cs;
 
-    public cashContext(String type) {
+    public CashContext(String type) {
         switch (type) {
             case "正常付费":
-                cs = new cashNormal();
+                cs = new CashNormal();
                 break;
             case "满300减50":
-                cs = new cashReturn(300, 50);
+                cs = new CashReturn(300, 50);
                 break;
             case "打8折":
-                cs = new cashRebate(0.8);
+                cs = new CashRebate(0.8);
                 break;
         }
     }

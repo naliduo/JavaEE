@@ -3,9 +3,9 @@ package main.designmodel.decorator;
 /**
  * Created by lilk on 2019/1/7.
  */
-public class decorateC extends decorate {
+public class DecorateC extends Decorate {
 
-    public decorateC(person componet){
+    public DecorateC(Person componet){
         this.component = componet;
     }
 
